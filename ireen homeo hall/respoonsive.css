@@ -1,0 +1,132 @@
+/*---header responsive start---*/
+@media screen and (max-width: 820px) {
+    header {
+        line-height: 0.6;
+        padding: 0px;
+        font-size: 13px;
+    }
+    .date{
+        display: none;
+    }
+    header .nav img{
+        display: block;
+        float: right;
+    }
+    .button button{
+        margin: 0;
+        margin-top: 10px;
+        transform: translate(0px,0px);
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .button{
+        margin-bottom: 0;
+    }
+    .button .normal {
+        display: none;
+    } 
+    .button ul{
+        display: block;
+        transition: 0.3s;
+    }
+    .button ul li{
+        display: block;
+        transition: 0.3s;
+    }
+    .button ul{
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    .button ul li{
+        list-style: none;
+        display: none;
+        margin-right: 10%;
+        margin-bottom: 5px;
+        transition: 0.3s;
+    }
+    .button ul:hover li{
+        display: block;
+        transition: 0.3s ease-in-out;
+    }
+}
+@media screen and (max-width:1110px){
+    .button button{
+        transform: translate(0,0);
+    }
+    .button{
+        margin-bottom: 0px;
+        text-align: center;
+    }
+    #jogajog{
+        width: 97%;
+    }
+
+}
+/*---header responsive end---*/
+
+
+
+
+/*---body responsive start---*/
+@media screen and (max-width: 820px) {
+    .pakage_name{
+        font-size: 20px;
+    }
+    .umrah_card {
+        margin-top:30px ;
+        margin-left: 4% ;
+        margin-right: 5%;
+        float: none;
+        width:80%;
+    }
+    .umrah_card:hover{
+        transform: scale(1);
+        box-shadow: 0.5px 0.5px 5px #333;
+        cursor:default;
+    }
+
+    .umrah_card .button2{
+        background-color: #ffd059;
+    }
+    .umrah_card hr{
+        border: 1px solid #ffd059;
+    }
+    .umrah_card .book{
+        opacity: 100%;
+        box-shadow: inset 100px 0 0 #ffcf20e5;
+    }
+    #section_umrah{
+        font-size: 20px;
+    }
+    #section_guied{
+        font-size: 20px;
+    }
+    #section_book{
+        text-align: center;
+        font-size: 20px;
+    }
+    #book_pakage table td{
+        font-size: 15px;
+    }
+    #section_thika{
+        font-size: 20px;
+    }
+    .extra_break{
+        display: none;
+    }
+    #back_to_top{
+        bottom: 11px;
+        right: 15px;
+        position: fixed;
+    }
+    .fixed_header{
+        width: 100%;
+    }
+    .fixed_header p{
+        font-size: 8px;
+        padding-bottom: 3px;
+        margin-left: 0;
+        padding-left: 0;
+    }
+}
+/*---body responsive end---*/

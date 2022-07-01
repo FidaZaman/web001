@@ -1,0 +1,392 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(assets/background.jpg);
+    margin: 0;
+}
+
+/* header part start */
+header {
+    font-family: Adorsholipi;
+    background-color: #ffd059;
+    color: black;
+    padding: 2px;
+    line-height: 10px;
+}
+header .logo{
+    padding: 2px;
+    line-height: 10px;
+}
+.logo img{
+    float: left;
+    width: 120px;
+    padding: 1px;
+
+}
+.header{
+    margin-left:100px;
+    font-family: Adorsholipi;
+}
+.header p{
+    font-family: Adorsholipi;
+    margin-left:28px;
+    color:rgb(71, 71, 71);
+}
+
+.date{
+    text-align: right;
+    display: flex;
+    float: right;
+    padding: 2px;
+}
+header .nav img{
+    display: none;
+}
+.button button{
+    padding:8px;
+    background-color: #ffd020;
+    color:white;
+    border:2px solid #ebebeb;
+    border-radius: 7px;
+    cursor: pointer;
+    margin:10px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: dosis;
+    transform: translate(400px,-90px);
+} 
+.button{
+    margin-bottom: -50px;
+}
+
+.button button:hover{
+    background-color: white;
+    color:#ffd020;
+    box-shadow: 2px 2px 10px white ;
+    transition: 0.2s;
+} 
+.button ul{
+    display: none;
+}
+
+
+/* header part end */
+
+
+
+/* body part start */
+.breaking_news {
+    background-color: white;
+    padding: 10px ;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: Adorsholipi;
+}
+.breaking_news .stay_text{
+    font-size: large;
+    font-weight: 600;
+    border: 2px solid #ffd020;
+    border-bottom: none;
+    width: 80px;
+    padding: 6px;
+    font-family: Adorsholipi;
+    font-weight: 700;
+}
+
+.breaking_news .marquee{
+    font-family: Adorsholipi;
+    border: 2px solid #6303ff;
+    font-weight: 500;
+}
+.breaking_news .marquee:hover{
+    cursor: not-allowed;
+}
+#section_umrah{
+    background-color: #494949;
+    color: #fff;
+    text-align: center;
+    font-family: adorsholipi;
+    font-size: 30px;
+    font-weight: 500;
+    width: 100%;
+    height: 50px;
+}
+#section_umrah p{
+    margin: auto;
+}
+
+.pakage_name{
+    text-align: center;
+    background-color: #fde692;
+    padding: 20px;
+    font-size: 30px;
+    font-family: dosis;
+    box-shadow: 1px 1px 5px #494949;
+    border-radius: 0 8px 8px 0;
+}
+.umrah_card {
+    width: 20%;
+    height: auto;
+    background-color: #fff;
+    box-shadow: 0.5px 0.5px 5px #333;
+    border-radius: 7px;
+    margin: 10px;
+    margin-left: 50px;
+    margin-top:30px;
+    padding: 10px;
+    float: left;
+    transform: rotate(-0deg);
+    font-family: Adorsholipi;
+}
+
+.umrah_card:hover {
+    transform: scale(1.03);
+    transition:  0.2s ease-in-out;
+    box-shadow: 3px 3px 10px #333;
+}
+.umrah_card .headline p{
+    font-weight: 800;
+}
+.umrah_card hr{
+    border: 1px solid #e0e0e0;
+}
+.umrah_card:hover hr{
+    border: 1px solid #ffd020;
+}
+.umrah_card .button2{
+    padding:8px;
+    font-weight: 700;
+    background-color: #e0e0e0;
+    color: #333;
+    border:none;
+    border-radius: 50px;
+}
+.umrah_card:hover .button2{
+    background-color: #ffcf20bd;
+    color: #333;
+    transition: 0.2s ease-in-out;
+    transform: rotate(0deg);
+}
+.umrah_card .book{
+    background-color: #ffcf2080;
+    box-shadow: inset 0 0 0 #ffcf20e5;
+    border:none;
+    padding: 10px;
+    border-radius: 7px;
+    font-weight: bold;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    font-family: dosis;
+    transition: 0.3s ease-in-out;
+}
+.umrah_card:hover .book{
+    background-color: #ffcf20bd;
+    top: 0px;
+    right: 0px;
+    bottom: 0px ;
+    transition: 0.3s ease-in-out;
+    border-radius: 0 7px 7px 0 ;
+}
+.umrah_card .book:hover{
+    box-shadow: inset 140px 0 0 #ffcf20;
+    transition: 0.3s ease-in-out;
+ 
+}
+.umrah_card .book a{
+    text-decoration: none;
+    color: #494949;
+    transition: 0.3s ease-in-out;
+}
+.umrah_card .book:hover a{
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+.pakage_name{
+    float: left ;
+    text-align: left;
+}
+#section_guied{
+    background-color: #494949;
+    color: #fff;
+    text-align: center;
+    font-family: adorsholipi;
+    font-size: 30px;
+    font-weight: 500;
+    width: 100%;
+    height: 50px;
+}
+.guied {
+    text-align: center;
+}
+.guied button{
+    border: 1px solid #ffd020;
+    background-color: #fff;
+    color: #ffd020;
+    padding: 8px;
+    border-radius: 25px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.guied button:hover{
+    background-color: #ffd020;
+    color: #fff;
+}
+#book_pakage table td{
+    text-align: left;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+#section_book{
+    background-color: #494949;
+    color: #fff;
+    text-align: center;
+    font-family: adorsholipi;
+    font-size: 30px;
+    font-weight: 500;
+    width: 100%;
+    height: 50px;
+}
+#book_pakage{
+    background-color: #fff;
+    margin-bottom: -30px;
+    padding:10px 0 30px 0;
+}
+#book_pakage p{
+    margin: 0;
+    padding:10px;
+    text-align:center;
+    font-size:20px;
+    font-family: adorsholipi;
+}
+
+#section_thika{
+    background-color: #494949;
+    color: #fff;
+    text-align: center;
+    font-family: adorsholipi;
+    font-size: 30px;
+    font-weight: 500;
+    width: 100%;
+    height: 50px;
+}
+#jogajog{
+    background-color: #ffd020;
+    width: 100%;
+    height: 250px;
+    padding-left: 10px;
+    font-family: sans-serif;
+}
+#jogajog iframe{
+    float: left;
+}
+#jogajog h3{
+    color: #fff;
+    margin-top: 0;
+}
+#jogajog img{
+    width: 20px;
+    float: left;
+    margin-bottom: 80px;
+    margin-right: 2px;
+    margin-top: 1px;
+    margin-left: 4px;
+}
+#jogajog .img2 img{
+    width: 20px;
+    float: left;
+    margin-bottom: 70px;
+    margin-right: 2px;
+    margin-top: 1px;
+    margin-left: 4px;
+}
+#jogajog p{
+    font-size: 20px;
+    color: rgb(54, 54, 54);
+    font-family: sans-serif;
+}
+#jogajog .img2{
+    font-size: 20px;
+    color: rgb(54, 54, 54);
+    font-family: sans-serif;
+}
+
+
+
+/* body part end */
+
+
+
+
+
+
+/* footer part start */
+#btn-back-to-top {
+    cursor: pointer;
+    background-color: #1a8f20;
+    border: 1px solid #494949;
+    color: rgb(255, 255, 255);
+    border-radius: 25px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+  }
+  #btn-back-to-top:hover{
+    background-color: #fff;
+    color: #333;
+  }
+
+
+/*fixed header*/
+
+ .fixed_header {
+    background-color: #fff;
+    color: #494949;
+    box-shadow: 0px 2px 5px #333 ;
+    top: 0px;
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+    padding: 0 19px;
+    position: fixed;
+ }
+ .fixed_header p a{
+    color: #52ce39;
+    text-decoration: none;
+    border: 1px solid #2CFF00;
+    box-shadow: inset 0px 0px 0px #2bff00;
+    transition: 0.3s ease-out;
+    padding: 5px;
+    border-radius: 25px;
+ }
+ .fixed_header p a:hover{
+    color: white;
+    box-shadow: inset 100px 0px 0px #2CFF00;
+    transition: 0.5s;
+ }
+ .footer_button{
+     background-color: #ffd020;
+ }
+ .footer_button button{
+     background-color: transparent;
+     border: none;
+     cursor: pointer;
+     color: #575757;
+     font-family: sans-serif;
+     text-transform: uppercase;
+ }
+ .footer_button p{
+     display: inline;
+     margin: none;
+ }
+ .footer_button button:hover{
+        color: #fff;
+        transition: 0.2s;
+ }
+
+/* footer part end */
